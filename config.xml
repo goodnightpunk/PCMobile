@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.pennycandies.welcom"
+	versionCode="1"
+	version   = "1.0">
+<name>Penny Candies</name>
+<description>Penny Candies mobile phone application</description>
+<author href="pennycandies.com" 
+email="dan@pennycandies.com">
+Dan Potter
+</author>
+	<gap:platform name="android" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="DisallowOverscroll" value="true"/>
+	<preference name="disallowOverscroll" value="true" />
+	<preference name="android-minSdkVersion" value="14" />
+	<preference name="android-installLocation" value="auto" />
+	<preference name="BackgroundColor" value="0xffffffff "/>
+	<preference name="KeepRunning" value="true"/>
+	
+	<icon src="res/drawable-ldpi/ic_action.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/drawable-mdpi/ic_action.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/drawable-hdpi/ic_action.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/drawable-xhdpi/ic_action.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/drawable-xxhdpi/ic_action.png" gap:platform="android" gap:density="xxhdpi" />
+	
+	<gap:splash src="res/res-long-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="res/res-long-port-mdpi/default.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="res/res-long-port-hdpi/default.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="res-long-port-xhdpi/default.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="res/res-long-port-xxhdpi/default.png" gap:platform="android" gap:density="xxhdpi" />
+	
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<gap:plugin name="org.apache.cordova.dialogs"  />
+	<gap:plugin name="org.apache.cordova.device"  />
+	<gap:plugin name="org.apache.cordova.network-information"  />
+	<gap:plugin name="org.apache.cordova.console"  />
+	<gap:plugin name="org.apache.cordova.inappbrowser"  />
+	<gap:plugin name="org.apache.cordova.network-information"  />
+	<gap:plugin name="org.apache.cordova.splashscreen"  />
+	
+	<access origin="*" subdomains="true" />
+	
+</widget>
